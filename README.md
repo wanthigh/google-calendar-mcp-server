@@ -34,6 +34,7 @@ mkdir ~/.google-calendar-mcp
 Edit your Claude Desktop config file:
 
 **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+
 **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
 
 ```json
