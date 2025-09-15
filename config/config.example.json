@@ -1,0 +1,6 @@
+{
+  "credentialsPath": "./config/credentials.json",
+  "tokenPath": "./config/token.json",
+  "defaultCalendarId": "primary",
+  "defaultTimeZone": "UTC"
+}
