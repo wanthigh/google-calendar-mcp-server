@@ -92,3 +92,23 @@ config/config.json
 
 # Test coverage
 coverage/
+
+# Test files and scripts
+test-*.js
+step-by-step-test.js
+manual-test.js
+debug-*.js
+cleanup-*.js
+check-*.js
+complete-auth.js
+start-auth.js
+batch-csv.js
+batch-json.js
+test-server.js
+*.test.js
+*.spec.js
+start.sh
+
+# Temporary test data
+test-data/
+temp-test/
