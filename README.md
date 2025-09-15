@@ -29,7 +29,9 @@ mkdir ~/.google-calendar-mcp
 # Save your downloaded credentials.json to ~/.google-calendar-mcp/credentials.json
 ```
 
-### 4. Add to Claude Desktop
+### 4. Add to Claude Desktop or Claude Code
+
+#### For Claude Desktop
 
 Edit your Claude Desktop config file:
 
@@ -47,6 +49,25 @@ Edit your Claude Desktop config file:
   }
 }
 ```
+
+#### For Claude Code
+
+Edit your Claude Code global config file:
+
+**All platforms**: `~/.claude.json`
+
+```json
+{
+  "mcpServers": {
+    "google-calendar": {
+      "command": "google-calendar-mcp",
+      "args": ["--credentials", "/Users/YOUR_USERNAME/.google-calendar-mcp/credentials.json"]
+    }
+  }
+}
+```
+
+**Note**: On Windows, replace `/Users/YOUR_USERNAME/` with `C:\Users\YOUR_USERNAME\`
 
 ### 5. First Run
 
