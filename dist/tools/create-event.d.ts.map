@@ -1,0 +1,1 @@
+{"version":3,"file":"create-event.d.ts","sourceRoot":"","sources":["../../src/tools/create-event.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,IAAI,EAAE,MAAM,oCAAoC,CAAC;AAC1D,OAAO,EAAE,eAAe,EAAE,MAAM,yBAAyB,CAAC;AAI1D,eAAO,MAAM,eAAe,EAAE,IA2G7B,CAAC;AAEF,wBAAsB,iBAAiB,CACrC,IAAI,EAAE,OAAO,EACb,eAAe,EAAE,eAAe,GAC/B,OAAO,CAAC,MAAM,CAAC,CAkBjB"}

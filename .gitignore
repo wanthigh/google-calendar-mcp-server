@@ -61,9 +61,9 @@ jspm_packages/
 # DynamoDB Local files
 .dynamodb/
 
-# Build output
-dist/
-build/
+# Build output (commented out to include dist in repo for npm install)
+# dist/
+# build/
 
 # IDE files
 .vscode/

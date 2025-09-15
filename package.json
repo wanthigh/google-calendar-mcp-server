@@ -18,8 +18,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "eslint src --ext .ts",
-    "lint:fix": "eslint src --ext .ts --fix",
-    "prepare": "npm run build"
+    "lint:fix": "eslint src --ext .ts --fix"
   },
   "keywords": [
     "mcp",
@@ -52,10 +51,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashuai/google-calendar-mcp-server.git"
+    "url": "https://github.com/wanthigh/google-calendar-mcp-server.git"
   },
   "bugs": {
-    "url": "https://github.com/dashuai/google-calendar-mcp-server/issues"
+    "url": "https://github.com/wanthigh/google-calendar-mcp-server/issues"
   },
-  "homepage": "https://github.com/dashuai/google-calendar-mcp-server#readme"
+  "homepage": "https://github.com/wanthigh/google-calendar-mcp-server#readme"
 }
