@@ -23,24 +23,34 @@ A Model Context Protocol (MCP) server that provides comprehensive Google Calenda
 ### Prerequisites
 
 - Node.js 18.0.0 or higher
-- A Google Cloud Project with Calendar API enabled
-- Google OAuth2 credentials or Service Account credentials
 
-### Install from npm
+### Quick Install (Recommended)
 
 ```bash
-npm install -g @dashuai/google-calendar-mcp-server
+# Install directly from GitHub
+npm install -g github:wanthigh/google-calendar-mcp-server
 ```
 
-### Install from Source
+### Alternative Methods
 
+<details>
+<summary>Click to expand other installation options</summary>
+
+#### Install from Source
 ```bash
-git clone https://github.com/dashuai/google-calendar-mcp-server.git
+git clone https://github.com/wanthigh/google-calendar-mcp-server.git
 cd google-calendar-mcp-server
 npm install
 npm run build
 npm link
 ```
+
+#### Install from npm (if published)
+```bash
+npm install -g @wanthigh/google-calendar-mcp-server
+```
+
+</details>
 
 ## 🔧 Setup
 
@@ -116,13 +126,14 @@ Add to your Claude Desktop configuration:
 {
   "mcpServers": {
     "google-calendar": {
-      "command": "node",
-      "args": ["/path/to/google-calendar-mcp-server/dist/index.js"],
-      "env": {}
+      "command": "google-calendar-mcp",
+      "args": []
     }
   }
 }
 ```
+
+**Note**: After installation, `google-calendar-mcp` will be available globally in your PATH.
 
 ### Command Line Options
 
