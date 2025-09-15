@@ -27,7 +27,7 @@ A Model Context Protocol (MCP) server that provides comprehensive Google Calenda
 ### Quick Install (Recommended)
 
 ```bash
-# Install directly from GitHub
+# Install directly from GitHub (no npm publish required)
 npm install -g github:wanthigh/google-calendar-mcp-server
 ```
 
@@ -45,9 +45,16 @@ npm run build
 npm link
 ```
 
-#### Install from npm (if published)
+#### Publish to npm (optional for maintainer)
 ```bash
-npm install -g @wanthigh/google-calendar-mcp-server
+# First time: login to npm
+npm login
+
+# Publish to npm registry
+npm publish --access public
+
+# Then users can install via:
+# npm install -g @wanthigh/google-calendar-mcp-server
 ```
 
 </details>

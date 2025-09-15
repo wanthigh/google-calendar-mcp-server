@@ -1,5 +1,5 @@
 {
-  "name": "@dashuai/google-calendar-mcp-server",
+  "name": "@wanthigh/google-calendar-mcp-server",
   "version": "1.0.0",
   "description": "Google Calendar MCP Server for creating, editing and maintaining Google Calendar events",
   "type": "module",
