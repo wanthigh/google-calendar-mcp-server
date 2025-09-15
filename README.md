@@ -52,6 +52,11 @@ Edit your Claude Desktop config file:
 
 Restart Claude Desktop. The first time you use a calendar function, you'll be prompted to authorize access through your browser.
 
+**Note**: If you need to manually authorize (rare), you can run:
+```bash
+google-calendar-mcp --credentials /Users/YOUR_USERNAME/.google-calendar-mcp/credentials.json
+```
+
 ## ✨ Features
 
 - **Single Operations**: Create, update, delete, list, and search events
